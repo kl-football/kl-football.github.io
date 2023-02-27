@@ -47,6 +47,7 @@
 			prospect.forEach(function(item, index) {
 				$.each(item, function(key_, value_) {
 					$(item.team + '_' + key_).html = value_;
+					console.log(item.team + '_' + key_ + ' = ' + value_);
 				});
 			});
     </script>
